@@ -1,0 +1,44 @@
+/* 
+    Document   : tommy
+    Created on : Nov 13, 2012, 6:05:33 PM
+    Author     : Tommy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+img.display {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 250px;
+    opacity: 10%;
+}
+img.display-medium{
+    height:150px;
+    width:200px;
+    
+}
+
+.star-rating s:hover {
+    color: yellow;
+}
+.star-rating s {
+    color: black;
+    font-size: 20px;
+    cursor: default;
+    text-decoration: none;
+    line-height: 0px;
+}
+.star-rating {
+    padding: 0px;
+}
+.star-rating s:hover:before{
+    content: "\2605";
+}
+.star-rating s:before {
+    content: "\2606";
+}
+
+​
